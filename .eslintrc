@@ -1,0 +1,51 @@
+{
+  "parser": "babel-eslint",
+  "settings": {
+    "import/extensions": [".js"],
+    "import/parser": "babel-eslint",
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js"]
+      }
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    },
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "mocha": true,
+    "node": true
+  },
+  "extends": [
+   "plugin:jsx-a11y/recommended"
+  ],
+  "rules": {
+    "no-console": "off",
+    "semi": 2,
+    "no-undef": 2,
+    "no-undef-init": 2,
+    "no-tabs": 2,
+    "react/self-closing-comp": 2,
+    "react/no-typos": 2,
+    "jsx-a11y/no-autofocus": [ 2, {
+      "ignoreNonDOM": true
+    }]
+  },
+  "plugins": [
+    "import",
+    "react",
+    "jsx-a11y",
+    "filenames"
+  ]
+}
