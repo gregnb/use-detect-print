@@ -1,6 +1,6 @@
 {
   "name": "use-detect-print",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A custom hook to detect printing in the browser",
   "source": "src/index.js",
   "main": "dist/index.js",
