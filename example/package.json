@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/gregnb/use-detect-print#readme",
   "dependencies": {
-    "lodash.merge": "^4.6.1",
+    "lodash.merge": "^4.6.2",
     "react": "../node_modules/react",
     "react-dom": "../node_modules/react-dom"
   },
