@@ -9,7 +9,7 @@ function useDetectPrint() {
 
     printMq.addListener(mqEvent);
     return () => printMq.removeListener(mqEvent);
-  }, []);
+  });
 
   return isPrinting;
 }
